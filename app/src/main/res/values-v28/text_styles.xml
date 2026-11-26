@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sama dengan values/, plus penanda heading untuk pembaca layar (API 28+). -->
+    <style name="Text.SiagaMesh.Heading">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:accessibilityHeading">true</item>
+    </style>
+</resources>

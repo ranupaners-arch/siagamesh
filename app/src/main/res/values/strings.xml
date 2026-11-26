@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SiagaMesh</string>
+
+    <!-- Notifikasi -->
+    <string name="channel_mesh_status">Status mesh</string>
+    <string name="channel_mesh_status_desc">Notifikasi tetap selama mesh aktif agar HP tetap tersambung.</string>
+    <string name="notif_mesh_title">SiagaMesh aktif</string>
+    <string name="notif_mesh_text">Mesh siap menyambung ke HP di sekitar.</string>
+    <string name="notif_mesh_stop">Matikan</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Selamat datang di SiagaMesh</string>
+    <string name="onboarding_title_edit">Ubah nama</string>
+    <string name="onboarding_intro">SiagaMesh menyambungkan HP ke HP di sekitar tanpa internet, pulsa, atau BTS.</string>
+    <string name="permission_heading">1. Izinkan akses radio</string>
+    <string name="permission_body">Bluetooth dan Wi-Fi dipakai untuk menemukan HP lain di sekitar. Di Android lama, izin lokasi juga diminta karena syarat sistem untuk memindai — lokasimu tidak dilacak atau dikirim ke internet.</string>
+    <string name="permission_status_ok">Akses radio sudah diizinkan</string>
+    <string name="permission_status_missing">Akses radio belum diizinkan</string>
+    <string name="permission_grant">Izinkan akses</string>
+    <string name="permission_open_settings">Buka pengaturan izin</string>
+    <string name="name_heading">2. Nama tampilan</string>
+    <string name="name_label">Nama yang dilihat anggota grup. Contoh: Bu Sari RT 03</string>
+    <string name="name_error_empty">Nama belum diisi. Tulis nama, lalu simpan.</string>
+    <string name="name_error_too_long" tools:ignore="PluralsCandidate">Nama terlalu panjang. Maksimal %1$d karakter.</string>
+    <string name="save_continue">Simpan dan lanjut</string>
+
+    <!-- Home -->
+    <string name="profile_heading">Profil</string>
+    <string name="device_id_label">ID perangkat</string>
+    <string name="edit_name">Ubah nama</string>
+    <string name="mesh_heading">Mesh</string>
+    <string name="mesh_on">Mesh aktif</string>
+    <string name="mesh_off">Mesh mati</string>
+    <string name="mesh_start">Nyalakan mesh</string>
+    <string name="mesh_stop">Matikan mesh</string>
+    <string name="permission_warning">Akses radio belum lengkap. Mesh tidak bisa menemukan HP lain.</string>
+    <string name="permission_fix">Perbaiki izin</string>
+    <string name="coming_soon">Chat grup, SOS, dan absen akan tersedia di versi berikutnya.</string>
+    <string name="version_label">Versi %1$s</string>
+</resources>

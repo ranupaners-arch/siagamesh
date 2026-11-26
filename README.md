@@ -4,7 +4,17 @@ Aplikasi mesh offline Android (BLE + Wi-Fi Direct) untuk situasi bencana, RT, da
 
 Arah produk dekat Covatom, tetapi UI dan kode dibuat sendiri — bukan salinan merek atau asetnya.
 
-**Status:** Tahap dokumentasi — kode belum dimulai.
+**Status:** Fase 0 (skeleton) — profil lokal, izin radio, dan foreground service mesh. Transport belum ada.
+
+## Build
+
+Butuh JDK 17+ dan Android SDK (platform 36).
+
+```bash
+./gradlew assembleDebug        # app/build/outputs/apk/debug/app-debug.apk
+./gradlew testDebugUnitTest    # tes unit logika profil & izin
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
 
 ## Stack
 

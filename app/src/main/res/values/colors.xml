@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Palet sendiri SiagaMesh. Semua pasangan teks/latar ≥ 4.5:1 (WCAG AA). -->
+<resources>
+    <color name="bg">#FFFFFF</color>
+    <color name="surface">#F1F3F5</color>
+    <color name="text">#111418</color>
+    <color name="text_muted">#4A525C</color>
+    <color name="outline">#6B7480</color>
+    <color name="primary">#0B4F8A</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="ok">#1B6E3A</color>
+    <color name="warn">#8A4B00</color>
+    <color name="warn_bg">#FFF1DC</color>
+    <color name="danger">#B3261E</color>
+</resources>
